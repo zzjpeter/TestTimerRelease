@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471DEF3A2282B48D0070DEF4 /* SuperTestTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 471DEF392282B48D0070DEF4 /* SuperTestTimerView.m */; };
 		476942BE2282AB9C00EB91D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 476942BD2282AB9C00EB91D9 /* AppDelegate.m */; };
 		476942C12282AB9C00EB91D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476942C02282AB9C00EB91D9 /* ViewController.m */; };
 		476942C42282AB9C00EB91D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 476942C22282AB9C00EB91D9 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471DEF382282B48D0070DEF4 /* SuperTestTimerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperTestTimerView.h; sourceTree = "<group>"; };
+		471DEF392282B48D0070DEF4 /* SuperTestTimerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperTestTimerView.m; sourceTree = "<group>"; };
 		476942B92282AB9C00EB91D9 /* TestTimerRelease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTimerRelease.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476942BC2282AB9C00EB91D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		476942BD2282AB9C00EB91D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +73,8 @@
 				476942C02282AB9C00EB91D9 /* ViewController.m */,
 				476942D22282ABF400EB91D9 /* SecondViewController.h */,
 				476942D32282ABF400EB91D9 /* SecondViewController.m */,
+				471DEF382282B48D0070DEF4 /* SuperTestTimerView.h */,
+				471DEF392282B48D0070DEF4 /* SuperTestTimerView.m */,
 				476942D52282ACC800EB91D9 /* TestTimerView.h */,
 				476942D62282ACC800EB91D9 /* TestTimerView.m */,
 				476942C22282AB9C00EB91D9 /* Main.storyboard */,
@@ -155,6 +160,7 @@
 				476942D72282ACC800EB91D9 /* TestTimerView.m in Sources */,
 				476942C12282AB9C00EB91D9 /* ViewController.m in Sources */,
 				476942CC2282AB9D00EB91D9 /* main.m in Sources */,
+				471DEF3A2282B48D0070DEF4 /* SuperTestTimerView.m in Sources */,
 				476942BE2282AB9C00EB91D9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

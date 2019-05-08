@@ -8,11 +8,13 @@
 
 #import "SecondViewController.h"
 #import "TestTimerView.h"
+#import "SuperTestTimerView.h"
 
 @interface SecondViewController ()
 
 @property (nonatomic,strong) NSTimer *timer;
 @property (nonatomic,strong) TestTimerView *testTimerView;
+@property (nonatomic,strong) SuperTestTimerView *superTestTimerView;
 
 @end
 
@@ -22,7 +24,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //[self test];
-    [self test1];
+    //[self test1];
+    [self test2];
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
@@ -49,6 +52,19 @@
     return _testTimerView;
 }
 
+
+- (void)test2 {
+    [self.view addSubview:self.superTestTimerView];
+}
+
+- (SuperTestTimerView *)superTestTimerView {
+    if (!_superTestTimerView) {
+        _superTestTimerView = [[SuperTestTimerView alloc] initWithFrame:CGRectMake(0, 0, 200, 200)];
+        _superTestTimerView.backgroundColor = [UIColor redColor];
+    }
+    return _superTestTimerView;
+}
+
 - (void)draw {
     NSLog(@"%@##%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
 }
@@ -63,7 +79,7 @@
 
 - (void)dealloc
 { 
-    [self.testTimerView clear];
+    [_testTimerView clear];
     NSLog(@"%@##%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
 }
 
