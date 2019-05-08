@@ -62,7 +62,7 @@
 }
 
 - (void)dealloc
-{
+{ 
     [self.testTimerView clear];
     NSLog(@"%@##%@",NSStringFromClass([self class]),NSStringFromSelector(_cmd));
 }
